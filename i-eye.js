@@ -1,7 +1,7 @@
 window.addEventListener('load', (function() {
   var iEye = {
     /* the css we are going to inject */
-    css:" html {-webkit-filter: invert(100%)!important;background-color: black!important;}" +
+    css:" html {-webkit-filter: invert(100%)!important;background-color: white!important;}" +
         " #theater-background {background-color:white;}" + // Fix for youtube theater mode
         " img {-webkit-filter: invert(100%)!important;} " +
         " iframe {-webkit-filter: invert(100%)!important;} " +

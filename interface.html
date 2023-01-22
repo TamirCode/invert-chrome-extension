@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>i-Eye</title>
+    <link rel="stylesheet" type="text/css" href="i-eye.css" />
+  </head>
+  <body>
+
+    <h1>i eye<span>Saving two eyes at a time!</span></h1>
+    <ul class="tabs">
+      <li>
+          <input type="radio" name="tabs" id="tab2" class="hidden-radio"/>
+          <label for="tab2">Info</label>
+          <div id="tab-content2" class="tab-content">
+            <div>
+              <div class="heading">How to use: </div>
+              <p>Simply navigate to a bright page and press ctrl+q, or click on the eye-icon and then press Invert page.</p>
+            </div>
+            <div>
+            <div class="heading">The exclude button: </div>
+              <p>Can be used to prevent the script from running on a certain page, or to only run the script on a certain page.</p>
+              <p>Useful if a site is for the most part white, but they have a page that is a darker color scheme. If the url has post data, you can type the path to the page you want excluded.</p>
+              <p>You can also use the exclude button on sites that are not inverted. This will only invert the selected page.</p>
+            </div>
+            <div>
+              <p>Developed, designed and used by Jason de Belle</p>
+            </div>
+            <div>
+              <p> Reset to defaults <button class="btn warrning" id="reset">RESET</button></p>
+            </div>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="tabs" id="tab1" checked  class="hidden-radio"/>
+          <label for="tab1">Main</label>
+          <div id="tab-content1" class="tab-content">
+            <div>
+              <button class="btn" id="invert-page">Invert Page</button> Add to auto-invert list
+            </div>
+            <div>
+              <button class="btn" id="exclude-page">Exclude Page</button><span class="small"> optional path </span><input id="excludePath" placeholder="Ex: /maps/"> <span class="small"> Ex. /maps/ for google.com/maps/ </span>
+            </div>
+
+          </div>
+      </li>
+    </ul>
+    <br style="clear: both;" />
+    <script src="ieyeChrome.js"></script>
+  </body>
+</html>

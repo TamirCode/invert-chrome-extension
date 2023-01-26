@@ -1,6 +1,3 @@
-# <img width="150px" src="https://raw.githubusercontent.com/CynderR/MarkupTests/master/images/pirate-penguin.png" alt="Pirate Penguin"> &nbsp;&nbsp; iEye!
-
-Turn your searches as dark as your terminal and text editor.
 #### A Chrome extension to invert colors of webpages.
 
 #### To use :
